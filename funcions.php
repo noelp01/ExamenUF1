@@ -1,5 +1,9 @@
 <?php
-
+/** 
+ * Funcio que realitza pi
+ * @param les variables
+ * @return restorna pi
+*/
 function programador2($n) {
     $result = 1;
 
