@@ -1,0 +1,6 @@
+#Ignorar fitxers amb la següent extensió
+*.pdf
+*.DOCX
+
+#Ignorar carpetes
+docs/
