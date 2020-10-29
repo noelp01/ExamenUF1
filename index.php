@@ -1,3 +1,8 @@
+<?php
+
+include  "funcions.php";
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -37,22 +42,17 @@
                         <th>Programador 1</th>
                         <th>Programador 2</th>
                     </tr>
+                    <?php for ($i=1;$i<=20;$i++) {
+                        ?>
+                    
                     <tr>
-                        <td>1</td>
-                        <td>Resultat 1</td>
-                        <td>Resultat 1</td>
+                        <td><?=$i;?></td>
+                        <td><?=programador1($i*1000);?></td>
+                        <td></td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Resultat 2</td>
-                        <td>Resultat 2</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Resultat 3</td>
-                        <td>Resultat 3</td>
-                    </tr>
+                    <?php } ?>
                 </table>
+                
             </div>
         </div>
 
