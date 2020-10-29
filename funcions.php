@@ -1,5 +1,10 @@
 <?php
 
+/** 
+ * Funcio que realitza el numero pi
+ * @param $result, $mutliplicador, $signe variables que utilitzarem
+ * @return $pi numero pi 
+*/
 function programador1($n) {
     $result = 1;
     $multiplicador = -1;
